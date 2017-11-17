@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-# gem 'devise', '~> 4.3'
+gem 'devise', '~> 4.3'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Capistrano for deployment

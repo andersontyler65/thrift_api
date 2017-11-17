@@ -5,12 +5,14 @@ class BudgetsController < ApplicationController
   # GET /budgets.json
   def index
     @budgets = Budget.all
-    render json: @budgets
+    # render json: @budgets
   end
 
   # GET /budgets/1
   # GET /budgets/1.json
   def show
+    @budgets = Budget.find(params[:id])
+    render json: @budgets
   end
 
   # GET /budgets/new
