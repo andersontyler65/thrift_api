@@ -14,16 +14,16 @@
 
 
 categories = Category.create([
-  { category_type: 'Groceries' },
-  { category_type: 'Entertainment' },
-  { category_type: 'Transportation' },
-  { category_type: 'Savings' },
-  { category_type: 'Utilities' },
-  { category_type: 'Miscellaneous' },
-  { category_type: 'Emergency Fund' },
-  { category_type: 'Clothing' }
+  { name: 'Groceries' },
+  { name: 'Entertainment' },
+  { name: 'Transportation' },
+  { name: 'Savings' },
+  { name: 'Utilities' },
+  { name: 'Miscellaneous' },
+  { name: 'Emergency Fund' },
+  { name: 'Clothing' }
   ])
-# 
+#
 # User.create([
 #   {}
 #   ])
