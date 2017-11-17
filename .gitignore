@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# Asset pipeline and other temp stuff can be ignored
+tmp/
